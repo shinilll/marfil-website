@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { src: 'assets/images/25.png', alt: 'MARFIL' },
                 { src: 'assets/images/26.png', alt: 'MARFIL' },
                 { src: 'assets/images/27.png', alt: 'MARFIL' },
-                { src: 'assets/images/28.png', alt: 'MARFIL' },
+                { src: 'assets/images/28.jpg', alt: 'MARFIL' },
                 { src: 'assets/images/29.png', alt: 'MARFIL' },
                 { src: 'assets/images/30.png', alt: 'MARFIL' },
                 { src: 'assets/images/31.png', alt: 'MARFIL' },
