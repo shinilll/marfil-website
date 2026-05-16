@@ -4,30 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Gallery</title>
-    <link rel="stylesheet" href="css/style.css?v=20260114-2">
-    <link rel="stylesheet" href="css/lightbox.css?v=20260114-2">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
     <nav id="navbar">
-        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-list">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </button>
-        <ul id="nav-list">
-            <li class="menu-close-item"><button class="menu-close" aria-label="Close menu" title="Close">&times;</button></li>
-            <li class="drawer-title">Marfil</li>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog.html" class="blog-link">Blog</a></li>
         </ul>
     </nav>
 
     <section class="gallery-section">
         <h2>My Photo Gallery</h2>
         <div class="gallery-grid">
-
+            <!-- Images will be loaded here dynamically -->
             <div class="gallery-loading">Loading images...</div>
         </div>
         
